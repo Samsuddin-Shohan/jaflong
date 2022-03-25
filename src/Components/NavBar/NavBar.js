@@ -13,7 +13,7 @@ const NavBar = () => {
            </div>
            <div className='me-5'>
             <Link to={`/login`}>
-                <button className='btn btn-secondary-outline mx-2 fw-bolder text-warning'>Login</button>
+                <button className='btn btn-outline-secondary mx-2 fw-bolder text-dark'>Login</button>
             </Link>
             <Link to={`/signup`}>
                 <button className='btn btn-secondary mx-2'>Sign Up</button>
