@@ -1,7 +1,8 @@
 #header {
-  height: 50vh;
+  height: 70vh;
   width: 100%;
   background-image: url("../../assets/bannerbackground.png");
+
   background-size: cover; /* <------ */
   background-repeat: no-repeat;
   background-position: center center;
