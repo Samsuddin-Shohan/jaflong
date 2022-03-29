@@ -1,5 +1,5 @@
-#header {
-  height: 50vh;
+#notfound-img {
+  height: 80vh;
   width: 100%;
   background-image: url("../../assets/bannerbackground.png");
 
@@ -7,8 +7,5 @@
   background-repeat: no-repeat;
   background-position: center center;
   transform: scaleX(1.1);
-}
-div {
-  max-width: 100%;
-  overflow-x: hidden;
+  margin: 2rem;
 }
