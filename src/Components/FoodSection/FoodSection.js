@@ -6,17 +6,17 @@ import Lunches from '../Lunches/Lunches';
 
 const FoodSection = () => {
     return (
-        <div>
-        <Tabs defaultActiveKey="home" id="uncontrolled-tab-example" className="mb-3">
-        <Tab eventKey="home" title="BreakFast">
-         <Breakfasts></Breakfasts>
-        </Tab>
-        <Tab eventKey="profile" title="Lunch">
-          <Lunches></Lunches>
-        </Tab>
-        <Tab eventKey="contact" title="Dinner" >
-          <Dinners></Dinners>
-        </Tab>
+        <div className='my-5'>
+        <Tabs defaultActiveKey="BreakFast" id="uncontrolled-tab-example" className="mb-3">
+            <Tab eventKey="BreakFast" title="BreakFast">
+            <Breakfasts></Breakfasts>
+            </Tab>
+            <Tab eventKey="Lunch" title="Lunch">
+            <Lunches></Lunches>
+            </Tab>
+            <Tab eventKey="Dinner" title="Dinner" >
+            <Dinners></Dinners>
+            </Tab>
       </Tabs>
         </div>
     );
