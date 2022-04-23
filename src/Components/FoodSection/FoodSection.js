@@ -6,9 +6,9 @@ import Lunches from '../Lunches/Lunches';
 
 const FoodSection = () => {
     return (
-        <div className='my-5'>
-        <Tabs defaultActiveKey="BreakFast" id="uncontrolled-tab-example" className="mb-3">
-            <Tab eventKey="BreakFast" title="BreakFast">
+        <div className='my-3'>
+        <Tabs defaultActiveKey="BreakFast" id="uncontrolled-tab-example" className="mb-3 mx-auto">
+            <Tab eventKey="BreakFast" title="Breakfast">
             <Breakfasts></Breakfasts>
             </Tab>
             <Tab eventKey="Lunch" title="Lunch">
