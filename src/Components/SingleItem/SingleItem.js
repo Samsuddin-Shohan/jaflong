@@ -20,13 +20,13 @@ const SingleItem = () => {
     <div>
       <NavBar></NavBar>
       <div className="row">
-        <div className="col">
-          <h1>This is Single Item {item?.name}</h1>
+        <div className="col-6">
+          <h1>{item?.name}</h1>
           <p>{item?.price}</p>
           <p>{item?.longDescription}</p>
         </div>
-        <div className="col">
-          <img src={item?.img} alt="" />
+        <div className="col-6">
+          <img className="w-75" src={item?.img} alt="" />
         </div>
       </div>
       <Footer></Footer>
