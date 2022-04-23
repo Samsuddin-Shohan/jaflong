@@ -4,10 +4,10 @@ import { useHistory } from "react-router-dom";
 
 const Dinner = ({ dinner }) => {
   const { name, img, price, description, key } = dinner;
-  console.log(key);
+  //console.log(key);
   const history = useHistory();
   const handleAddToSingleItem = (id) => {
-    console.log("clicked");
+    // console.log("clicked");
     history.push(`/singleitem/${id}`);
   };
   return (

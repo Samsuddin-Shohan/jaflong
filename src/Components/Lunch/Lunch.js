@@ -6,9 +6,9 @@ import "./Lunch.css";
 const Lunch = ({ lunch }) => {
   const { name, img, price, description, key } = lunch;
   const history = useHistory();
-  console.log(key);
+  //console.log(key);
   const handleAddToSingleItem = (id) => {
-    console.log("clicked");
+    //console.log("clicked");
     history.push(`/singleitem/${id}`);
   };
   return (
